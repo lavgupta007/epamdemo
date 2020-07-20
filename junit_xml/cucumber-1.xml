@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="19.833292">
+    <testcase classname="Flight booking Feature" name="Flight booking Test Scenario" time="9.383304">
+        <system-out><![CDATA[Given user goto the flight booking website"chrome"..........................passed
+When title of home page is "Flight Tickets, Flights Booking at Lowest Airfare, Book Air Tickets-Goibibo".passed
+Then user enters flight "New York" and "New Delhi"..........................passed
+And select booking date and click on search button..........................passed
+Then user search the best fare and fastest flight...........................passed
+Then print the booking details on console...................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Flight booking Feature" name="Flight booking Test Scenario 2" time="10.449988">
+        <system-out><![CDATA[Given user goto the flight booking website"chrome"..........................passed
+When title of home page is "Flight Tickets, Flights Booking at Lowest Airfare, Book Air Tickets-Goibibo".passed
+Then user enters flight "New York" and "Tokoy"..............................passed
+And select booking date and click on search button..........................passed
+Then user search the best fare and fastest flight...........................passed
+Then print the booking details on console...................................passed
+Then Close the browser......................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

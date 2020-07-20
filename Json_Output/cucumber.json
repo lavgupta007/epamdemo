@@ -3,340 +3,238 @@
     "line": 1,
     "elements": [
       {
-        "before": [
-          {
-            "result": {
-              "duration": 259317,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.setUP()"
-            }
-          },
-          {
-            "result": {
-              "duration": 133065,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.setUP1()"
-            }
-          },
-          {
-            "result": {
-              "duration": 135775,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.beforeFirst()"
-            }
-          }
-        ],
-        "line": 4,
-        "name": "This is First test",
+        "line": 16,
+        "name": "Flight booking Test Scenario",
         "description": "",
-        "id": "test-tagged-hooks;this-is-first-test",
-        "after": [
-          {
-            "result": {
-              "duration": 54473,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.afterFirst()"
-            }
-          },
-          {
-            "result": {
-              "duration": 44919,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.tearDown1()"
-            }
-          },
-          {
-            "result": {
-              "duration": 81175,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.tearDown()"
-            }
-          }
-        ],
+        "id": "flight-booking-feature;flight-booking-test-scenario;;2",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 85898436,
-              "status": "passed"
-            },
-            "line": 5,
-            "name": "this is the first step",
-            "match": {
-              "location": "TaggedHooksStepDefinition.this_is_the_first_step()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 98039,
+              "duration": 22194901595,
               "status": "passed"
             },
             "line": 6,
-            "name": "this is the second step",
+            "name": "user goto the flight booking website",
             "match": {
-              "location": "TaggedHooksStepDefinition.this_is_the_second_step()"
+              "location": "FlightBooking_StepDefination.user_already_on_login_page()"
             },
-            "keyword": "When "
+            "keyword": "Given "
           },
           {
             "result": {
-              "duration": 84479,
+              "duration": 49333042,
               "status": "passed"
             },
             "line": 7,
-            "name": "this is the third step",
+            "name": "title of home page is \"Flight Tickets, Flights Booking at Lowest Airfare, Book Air Tickets-Goibibo\"",
             "match": {
-              "location": "TaggedHooksStepDefinition.this_is_the_third_step()"
+              "arguments": [
+                {
+                  "val": "Flight Tickets, Flights Booking at Lowest Airfare, Book Air Tickets-Goibibo",
+                  "offset": 23
+                }
+              ],
+              "location": "FlightBooking_StepDefination.title_of_home_page_is(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 5098621942,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user enters flight \"New York\" and \"New Delhi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New York",
+                  "offset": 20
+                },
+                {
+                  "val": "New Delhi",
+                  "offset": 35
+                }
+              ],
+              "location": "FlightBooking_StepDefination.user_enters_source_and_destination(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 277009426,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "select booking date and click on search button",
+            "match": {
+              "location": "FlightBooking_StepDefination.select_booking_date_and_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3591653498,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user search the best fare and fastest flight",
+            "match": {
+              "location": "FlightBooking_StepDefination.user_search_the_best_fare_and_fastest_flight()"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 3,
-            "name": "@First"
-          }
-        ]
-      },
-      {
-        "before": [
-          {
-            "result": {
-              "duration": 112120,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.setUP()"
-            }
           },
           {
             "result": {
-              "duration": 82098,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.setUP1()"
-            }
-          },
-          {
-            "result": {
-              "duration": 76810,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.beforeSecond()"
-            }
-          }
-        ],
-        "line": 10,
-        "name": "This is Second test",
-        "description": "",
-        "id": "test-tagged-hooks;this-is-second-test",
-        "after": [
-          {
-            "result": {
-              "duration": 92284,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.afterSecond()"
-            }
-          },
-          {
-            "result": {
-              "duration": 140453,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.tearDown1()"
-            }
-          },
-          {
-            "result": {
-              "duration": 66290,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.tearDown()"
-            }
-          }
-        ],
-        "type": "scenario",
-        "keyword": "Scenario",
-        "steps": [
-          {
-            "result": {
-              "duration": 127029,
+              "duration": 25111,
               "status": "passed"
             },
             "line": 11,
-            "name": "this is the first step",
+            "name": "print the booking details on console",
             "match": {
-              "location": "TaggedHooksStepDefinition.this_is_the_first_step()"
+              "location": "FlightBooking_StepDefination.print_the_booking_details_on_console()"
             },
-            "keyword": "Given "
+            "keyword": "Then "
           },
           {
             "result": {
-              "duration": 88211,
+              "duration": 76387354,
               "status": "passed"
             },
             "line": 12,
-            "name": "this is the second step",
+            "name": "Close the browser",
             "match": {
-              "location": "TaggedHooksStepDefinition.this_is_the_second_step()"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "duration": 88937,
-              "status": "passed"
-            },
-            "line": 13,
-            "name": "this is the third step",
-            "match": {
-              "location": "TaggedHooksStepDefinition.this_is_the_third_step()"
+              "location": "FlightBooking_StepDefination.close_the_browser()"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "line": 9,
-            "name": "@Second"
           }
         ]
       },
       {
-        "before": [
-          {
-            "result": {
-              "duration": 120620,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.setUP()"
-            }
-          },
-          {
-            "result": {
-              "duration": 76143,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.setUP1()"
-            }
-          },
-          {
-            "result": {
-              "duration": 67536,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.beforeThird()"
-            }
-          }
-        ],
-        "line": 16,
-        "name": "This is Third test",
+        "line": 17,
+        "name": "Flight booking Test Scenario",
         "description": "",
-        "id": "test-tagged-hooks;this-is-third-test",
-        "after": [
-          {
-            "result": {
-              "duration": 74866,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.afterThird()"
-            }
-          },
-          {
-            "result": {
-              "duration": 67355,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.tearDown1()"
-            }
-          },
-          {
-            "result": {
-              "duration": 66706,
-              "status": "passed"
-            },
-            "match": {
-              "location": "TaggedHooksStepDefinition.tearDown()"
-            }
-          }
-        ],
+        "id": "flight-booking-feature;flight-booking-test-scenario;;3",
         "type": "scenario",
-        "keyword": "Scenario",
+        "keyword": "Scenario Outline",
         "steps": [
           {
             "result": {
-              "duration": 69572,
+              "duration": 1459146792,
               "status": "passed"
             },
-            "line": 17,
-            "name": "this is the first step",
+            "line": 6,
+            "name": "user goto the flight booking website",
             "match": {
-              "location": "TaggedHooksStepDefinition.this_is_the_first_step()"
+              "location": "FlightBooking_StepDefination.user_already_on_login_page()"
             },
             "keyword": "Given "
           },
           {
             "result": {
-              "duration": 72834,
+              "duration": 55809676,
               "status": "passed"
             },
-            "line": 18,
-            "name": "this is the second step",
+            "line": 7,
+            "name": "title of home page is \"Flight Tickets, Flights Booking at Lowest Airfare, Book Air Tickets-Goibibo\"",
             "match": {
-              "location": "TaggedHooksStepDefinition.this_is_the_second_step()"
+              "arguments": [
+                {
+                  "val": "Flight Tickets, Flights Booking at Lowest Airfare, Book Air Tickets-Goibibo",
+                  "offset": 23
+                }
+              ],
+              "location": "FlightBooking_StepDefination.title_of_home_page_is(String)"
             },
             "keyword": "When "
           },
           {
             "result": {
-              "duration": 71562,
+              "duration": 3779423156,
               "status": "passed"
             },
-            "line": 19,
-            "name": "this is the third step",
+            "line": 8,
+            "name": "user enters flight \"New York\" and \"Tokoy\"",
             "match": {
-              "location": "TaggedHooksStepDefinition.this_is_the_third_step()"
+              "arguments": [
+                {
+                  "val": "New York",
+                  "offset": 20
+                },
+                {
+                  "val": "Tokoy",
+                  "offset": 35
+                }
+              ],
+              "location": "FlightBooking_StepDefination.user_enters_source_and_destination(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 257804168,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "select booking date and click on search button",
+            "match": {
+              "location": "FlightBooking_StepDefination.select_booking_date_and_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 925746698,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "user search the best fare and fastest flight",
+            "match": {
+              "location": "FlightBooking_StepDefination.user_search_the_best_fare_and_fastest_flight()"
             },
             "keyword": "Then "
-          }
-        ],
-        "tags": [
+          },
           {
-            "line": 15,
-            "name": "@Third"
+            "result": {
+              "duration": 17511,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "print the booking details on console",
+            "match": {
+              "location": "FlightBooking_StepDefination.print_the_booking_details_on_console()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 60195806,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Close the browser",
+            "match": {
+              "location": "FlightBooking_StepDefination.close_the_browser()"
+            },
+            "keyword": "Then "
           }
         ]
       }
     ],
-    "name": "Test Tagged Hooks",
+    "name": "Flight booking Feature",
     "description": "",
-    "id": "test-tagged-hooks",
+    "id": "flight-booking-feature",
     "keyword": "Feature",
-    "uri": "/Users/NaveenKhunteta/Documents/workspace/FreeCrmBDDFramework/src/main/java/Features/taggedhooks.feature"
+    "uri": "/Users/apple/eclipse-workspace/EpamCodingAssigmentBDDFramework/src/main/java/Features/FlightBooking.feature"
   }
 ]

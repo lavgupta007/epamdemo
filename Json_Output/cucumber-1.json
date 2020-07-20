@@ -1,0 +1,270 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 17,
+        "name": "Flight booking Test Scenario",
+        "description": "",
+        "id": "flight-booking-feature;flight-booking-test-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3779255721,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user goto the flight booking website\"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 37
+                }
+              ],
+              "location": "FlightBooking_StepDefination.user_goto_the_flight_booking_website(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 20931794,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "title of home page is \"Flight Tickets, Flights Booking at Lowest Airfare, Book Air Tickets-Goibibo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Flight Tickets, Flights Booking at Lowest Airfare, Book Air Tickets-Goibibo",
+                  "offset": 23
+                }
+              ],
+              "location": "FlightBooking_StepDefination.title_of_home_page_is(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3075711292,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters flight \"New York\" and \"New Delhi\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New York",
+                  "offset": 20
+                },
+                {
+                  "val": "New Delhi",
+                  "offset": 35
+                }
+              ],
+              "location": "FlightBooking_StepDefination.user_enters_source_and_destination(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 409707409,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "select booking date and click on search button",
+            "match": {
+              "location": "FlightBooking_StepDefination.select_booking_date_and_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1996234116,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user search the best fare and fastest flight",
+            "match": {
+              "location": "FlightBooking_StepDefination.user_search_the_best_fare_and_fastest_flight()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 31264,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "print the booking details on console",
+            "match": {
+              "location": "FlightBooking_StepDefination.print_the_booking_details_on_console()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 101431961,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Close the browser",
+            "match": {
+              "location": "FlightBooking_StepDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@chrome"
+          }
+        ]
+      },
+      {
+        "line": 18,
+        "name": "Flight booking Test Scenario",
+        "description": "",
+        "id": "flight-booking-feature;flight-booking-test-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2932631047,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user goto the flight booking website\"chrome\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "chrome",
+                  "offset": 37
+                }
+              ],
+              "location": "FlightBooking_StepDefination.user_goto_the_flight_booking_website(String)"
+            },
+            "matchedColumns": [
+              2
+            ],
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 16919414,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "title of home page is \"Flight Tickets, Flights Booking at Lowest Airfare, Book Air Tickets-Goibibo\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Flight Tickets, Flights Booking at Lowest Airfare, Book Air Tickets-Goibibo",
+                  "offset": 23
+                }
+              ],
+              "location": "FlightBooking_StepDefination.title_of_home_page_is(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2697184549,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters flight \"New York\" and \"Tokoy\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "New York",
+                  "offset": 20
+                },
+                {
+                  "val": "Tokoy",
+                  "offset": 35
+                }
+              ],
+              "location": "FlightBooking_StepDefination.user_enters_source_and_destination(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 396001641,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "select booking date and click on search button",
+            "match": {
+              "location": "FlightBooking_StepDefination.select_booking_date_and_click_on_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 4300351755,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user search the best fare and fastest flight",
+            "match": {
+              "location": "FlightBooking_StepDefination.user_search_the_best_fare_and_fastest_flight()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20658,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "print the booking details on console",
+            "match": {
+              "location": "FlightBooking_StepDefination.print_the_booking_details_on_console()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 106879087,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Close the browser",
+            "match": {
+              "location": "FlightBooking_StepDefination.close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 5,
+            "name": "@chrome"
+          }
+        ]
+      }
+    ],
+    "name": "Flight booking Feature",
+    "description": "",
+    "id": "flight-booking-feature",
+    "keyword": "Feature",
+    "uri": "/Users/apple/eclipse-workspace/EpamCodingAssigmentBDDFramework/src/main/java/Features/FlightBooking.feature"
+  }
+]

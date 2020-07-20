@@ -1,20 +1,23 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="3" time="0.088351">
-<testcase classname="Test Tagged Hooks" name="This is First test" time="0.08679">
-<system-out><![CDATA[Given this is the first step................................................passed
-When this is the second step................................................passed
-Then this is the third step.................................................passed
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="37.826076">
+    <testcase classname="Flight booking Feature" name="Flight booking Test Scenario" time="31.287932">
+        <system-out><![CDATA[Given user goto the flight booking website..................................passed
+When title of home page is "Flight Tickets, Flights Booking at Lowest Airfare, Book Air Tickets-Goibibo".passed
+Then user enters flight "New York" and "New Delhi"..........................passed
+And select booking date and click on search button..........................passed
+Then user search the best fare and fastest flight...........................passed
+Then print the booking details on console...................................passed
+Then Close the browser......................................................passed
 ]]></system-out>
-</testcase>
-<testcase classname="Test Tagged Hooks" name="This is Second test" time="0.000874">
-<system-out><![CDATA[Given this is the first step................................................passed
-When this is the second step................................................passed
-Then this is the third step.................................................passed
+    </testcase>
+    <testcase classname="Flight booking Feature" name="Flight booking Test Scenario 2" time="6.538144">
+        <system-out><![CDATA[Given user goto the flight booking website..................................passed
+When title of home page is "Flight Tickets, Flights Booking at Lowest Airfare, Book Air Tickets-Goibibo".passed
+Then user enters flight "New York" and "Tokoy"..............................passed
+And select booking date and click on search button..........................passed
+Then user search the best fare and fastest flight...........................passed
+Then print the booking details on console...................................passed
+Then Close the browser......................................................passed
 ]]></system-out>
-</testcase>
-<testcase classname="Test Tagged Hooks" name="This is Third test" time="0.000687">
-<system-out><![CDATA[Given this is the first step................................................passed
-When this is the second step................................................passed
-Then this is the third step.................................................passed
-]]></system-out>
-</testcase>
+    </testcase>
 </testsuite>
